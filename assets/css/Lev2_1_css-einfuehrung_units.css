@@ -1,0 +1,81 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+@font-face {
+    font-family: OpenSans
+    ;
+    src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+html {
+    font-family: Verdana,Arial;
+}
+
+body {
+    font-size: 1rem;
+    width: 40%;
+}
+
+h1 {
+    margin: 10px;
+}
+
+article {
+    margin: 10px;
+}
+
+.alleTiere {
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+.alleTiere ul {
+    padding-inline-start: 1.2em;
+}
+
+
+.alleTiere li {
+    list-style-type: none;
+    line-height: 1.5em;
+}
+
+.dogs {
+    font-size: 0.8em;
+}
+
+.dogs li::before{
+    content: "🐶 "
+}
+
+.cats {
+    font-size: 0.8em;
+}
+.cats li::before {
+    content: "😺 "
+}
+
+.birds {
+    font-size: 0.8em;
+}
+.birds li::before {
+    content:"🦜 "
+}
+
+.snakes {
+    font-size: 0.8em;
+}
+.snakes li::before {
+    content: "🐍 "
+}
+
+.lizards {
+    font-size: 0.8em;
+}
+.lizards li::before {
+    content: "🦎 "
+}
+
+
